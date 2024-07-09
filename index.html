@@ -37,18 +37,26 @@
       </ul>
     </header>
 
-    <section class="box">
-      <video src="videos/car2.webm" autoplay loop id="myvideo"></video>
+    <section class="video-section">
+      <div class="video-background">
 
-      <h1>find your car</h1>
-      <h3>Find your own path</h3>
-      <button onclick="window.location.href='https://google.com';">
-        Configure
-        <span class="first"></span>
-        <span class="second"></span>
-        <span class="third"></span>
-        <span class="fourth"></span>
-      </button>
+        <video autoplay muted loop plays-inline>
+          <source src="videos/car2.webm" type="video/webm">
+       
+        </video>
+      </div>
+<div class="box">
+
+  <h1>find your car</h1>
+  <h3>Find your own path</h3>
+  <button onclick="window.location.href='https://google.com';">
+    Configure
+    <span class="first"></span>
+    <span class="second"></span>
+    <span class="third"></span>
+    <span class="fourth"></span>
+  </button>
+</div>
     </section>
 
     <!-- GRID LAYOUT -->
@@ -117,10 +125,10 @@
     </div>
 
     <!-- Contact Form -->
+    <div class="contact">
     <div class="py-5">
       <h2 class="text-center">Contact Us</h2>
     </div>
-
     <div class="w-50 m-auto">
       <form action="userinfo.html" method="post">
         <div class="form-group">
@@ -173,6 +181,7 @@
         </div>
         <div class="col-12">
           <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
         </div>
       </form>
     </div>
